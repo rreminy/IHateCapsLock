@@ -1,20 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36203.30 d17.14
+VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IHateCapsLock", "IHateCapsLock\IHateCapsLock.csproj", "{4700CB43-7229-4AF8-A574-65244211F2B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IHateCapsLock", "IHateCapsLock\IHateCapsLock.csproj", "{38B611C6-3884-F3E0-3B55-8DB1FD9CC9E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4700CB43-7229-4AF8-A574-65244211F2B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4700CB43-7229-4AF8-A574-65244211F2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4700CB43-7229-4AF8-A574-65244211F2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4700CB43-7229-4AF8-A574-65244211F2B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B611C6-3884-F3E0-3B55-8DB1FD9CC9E1}.Debug|x64.ActiveCfg = Debug|x64
+		{38B611C6-3884-F3E0-3B55-8DB1FD9CC9E1}.Debug|x64.Build.0 = Debug|x64
+		{38B611C6-3884-F3E0-3B55-8DB1FD9CC9E1}.Release|x64.ActiveCfg = Release|x64
+		{38B611C6-3884-F3E0-3B55-8DB1FD9CC9E1}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
