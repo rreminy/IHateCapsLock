@@ -1,0 +1,8 @@
+{
+  "Author": "Azure Gem",
+  "Name": "I Hate Caps Lock",
+  "Punchline": "Do you hate CAPS LOCK so much?",
+  "Description": "SORRY CAPS\nRemove caps lock when pressing the Enter / Return key.",
+  "Tags": [ "caps", "lock", "key" ],
+  "CategoryTags": [ "utility" ]
+}
