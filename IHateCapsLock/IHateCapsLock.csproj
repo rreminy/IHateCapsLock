@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0-windows</TargetFramework>
-	<AssemblyVersion>0.0.2.0</AssemblyVersion>
+	<AssemblyVersion>0.0.2.1</AssemblyVersion>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<OutputPath>bin/</OutputPath>

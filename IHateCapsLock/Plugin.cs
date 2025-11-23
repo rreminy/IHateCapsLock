@@ -57,7 +57,7 @@ namespace IHateCapsLock
             if (!this.ShouldCapture()) return;
 
             // If Return key is pressed down...
-            if (this.IsAnyConfiguredKeyPressed())
+            if (this._config.CompletelyDisable || this.IsAnyConfiguredKeyPressed())
             {
                 try
                 {

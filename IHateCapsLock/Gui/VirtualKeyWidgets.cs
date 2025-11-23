@@ -9,7 +9,7 @@ namespace IHateCapsLock.Gui
 {
     public static class VirtualKeyWidgets
     {
-        private static readonly VirtualKey[] s_keys = [VirtualKey.NO_KEY, VirtualKey.BACK, VirtualKey.RETURN, VirtualKey.SHIFT, VirtualKey.SPACE, VirtualKey.OEM_2];
+        private static readonly VirtualKey[] s_keys = [VirtualKey.NO_KEY, VirtualKey.BACK, VirtualKey.RETURN, VirtualKey.SHIFT, VirtualKey.SPACE, VirtualKey.DELETE, VirtualKey.OEM_2];
         private static readonly Dictionary<string, VirtualKey> s_popupSelection = [];
         private static readonly Dictionary<string, int> s_index = [];
 

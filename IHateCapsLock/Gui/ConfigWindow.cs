@@ -28,7 +28,13 @@ namespace IHateCapsLock.Gui
             {
                 if (node.Success)
                 {
-                    VirtualKeyWidgets.Selector("keys", "Keys", this.Config.Keys);
+                    ref var completelyDisable = ref this.Config.CompletelyDisable;
+                    ImGui.Checkbox($"Completely Disable CAPS LOCK", ref completelyDisable);
+
+                    using (var disable = ImRaii.Disabled(completelyDisable))
+                    {
+                        VirtualKeyWidgets.Selector("keys", "Keys", this.Config.Keys);
+                    }
                 }
             }
 

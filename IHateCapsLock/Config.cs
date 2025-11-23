@@ -16,6 +16,8 @@ namespace IHateCapsLock
 
         public bool DefaultKeysAdded;
 
+        public bool CompletelyDisable;
+
         public List<VirtualKey> Keys
         {
             get => this._keys;
